@@ -1,0 +1,15 @@
+current directory: /home/jan/Nextcloud/Prog/Ruby/Udemy/rails_projects/alpha_blog/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+/usr/bin/ruby2.5 -r ./siteconf20180803-10963-19eh0j6.rb extconf.rb
+creating Makefile
+
+current directory: /home/jan/Nextcloud/Prog/Ruby/Udemy/rails_projects/alpha_blog/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/jan/Nextcloud/Prog/Ruby/Udemy/rails_projects/alpha_blog/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/jan/Nextcloud/Prog/Ruby/Udemy/rails_projects/alpha_blog/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20180803-10963-5rxkfp
