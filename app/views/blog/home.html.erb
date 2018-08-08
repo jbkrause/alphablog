@@ -1,5 +1,13 @@
-<div id="header"> home </div>
-<div id="body">
-  <%= link_to image_tag('profileimage.png'), 'https://jankrause.net' %>
+<div style="display: flex; flex-direction: column; justify-content: center;">
+  <div id="header" style="margin: auto;"> j's blog </div>
+  <div id="body" style="display: flex; flex-direction: column; justify-content: center; margin: auto;">
+    <div style="margin: auto;">
+      <%= link_to "my blog", articles_path %> |
+      <%= link_to "about", about_path %>
+    </div>
+    <div style="margin: auto;">
+      <%= link_to image_tag('profileimage.png'), 'https://jankrause.net' %>
+    </div>
+  </div>
+  <div id="footer" style="margin: auto;"> Kr2018</div>
 </div>
-<div id="footer"> Kr2018 / <%= link_to 'about', about_path %> </div>
