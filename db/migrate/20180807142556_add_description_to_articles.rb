@@ -6,3 +6,4 @@ class AddDescriptionToArticles < ActiveRecord::Migration[5.2]
     add_column :articles,  :updated_at,  :datetime
   end
 end
+
