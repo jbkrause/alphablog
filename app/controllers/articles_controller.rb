@@ -16,8 +16,11 @@ class ArticlesController < ApplicationController
   def create
     # example to render parms in page
     # render plain: params[:article].inspect
-    
+    #
+    #debugger # then n
+    #
     @article = Article.new(article_params)
+    #@article.user = User.first
     if @article.save
       flash[:success] = "Article was successfully created"
       redirect_to article_path(@article)
