@@ -9,7 +9,7 @@ class UsersController < ApplicationController
     if @user.save
       flash[:success] = "welcome to the appha blog #{@user.username}"
       redirect_to articles_path
-    else # if incorect user, we displa new usertemplate, but with errors displaye by partial
+    else # if incorect user, we display new usertemplate, but with errors displaye by partial
       render 'new'
     end
   end
@@ -26,6 +26,10 @@ class UsersController < ApplicationController
     else
       render 'edit'
     end
+  end
+
+  def show
+    @user = User.find(params[:id])
   end
 
   private
