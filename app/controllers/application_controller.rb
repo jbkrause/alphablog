@@ -18,13 +18,5 @@ class ApplicationController < ActionController::Base
       redirect_to root_path
     end
   end
-
-  def requires_same_user
-    if @article && current_user != @article.user
-      flash[:danger] = "you can only edit our delete your own article"
-      redirect_to root_path
-    end
-  end
-
   
 end
