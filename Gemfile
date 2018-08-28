@@ -9,6 +9,8 @@ gem 'rails', '~> 5.2.0'
 #gem 'bcrypt', '~> 3.1.7'
 gem 'bcrypt'
 
+gem 'rails-controller-testing'
+
 gem 'will_paginate', '~>3.1.5'
 gem 'bootstrap-will_paginate', '~>1.0.0'
 
